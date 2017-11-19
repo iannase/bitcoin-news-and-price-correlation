@@ -16,13 +16,13 @@ I found an awesome website ([Kaggle](https://www.kaggle.com/mczielinski/bitcoin-
 
 ![](https://ianannasetech.files.wordpress.com/2017/11/screen-shot-2017-11-19-at-2-40-24-am.png?w=1536)
 
-### Retrieving data about 100,000 articles (minutes.py)
+### Retrieving data from 50,000 articles from February 2015 through October 2017 (minutes.py)
 Now that I had my dataset, I started by parsing all of the data from the CSV file into my program. After that, I parsed the RSS feed for the last 50,000 articles about bitcoin. The titles of all 50,000 were then divided up into their individual words.
 
 ![](https://ianannasetech.files.wordpress.com/2017/11/gif.gif?w=600&zoom=2)
 
 ### Exporting the data to Excel
-I used the timestamps of the articles in order to find the same timestamp in the parsed CSV file. Then I added specific amounts to the timestamp in order to find out the difference in price after the article was posted. I did this for 5-minute intervals all the way up to 55 minutes. This data was being appended to an excel file as it was running through the articles.
+I used the timestamps of the articles in order to find the same timestamp in the parsed CSV file. Then I added specific amounts to the timestamp in order to find out the difference in price after the article was posted. I did this for 5-minute intervals up to 60 minutes. This data was being appended to an excel file as it was running through the articles.
 
 ![](https://ianannasetech.files.wordpress.com/2017/11/screen-shot-2017-11-18-at-1-36-23-pm.png)
 
